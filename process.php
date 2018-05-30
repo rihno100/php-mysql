@@ -7,7 +7,7 @@ $dbname = "*****";
 
 // Create connection
 $conn = mysql_connect($servername, $username, $password, $dbname);
-mysql_select_db('wizard99v');
+mysql_select_db('*****');
  	 $sql = "INSERT INTO user WHERE name ='강소라';
 
 	 $result = mysql_query('select*from user');
