@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>send massage</title>
+<script src="http://code.jqueyr.com/jquery-latest.js"></script>
+<style>
+	form p{display:flex; align-items:start;}
+	form input[type='textarea']{display:flex; align-items:start;}
+</style>
+</head>
+
+<body>
+	<form method="post" action="insert_information.php" id="formtextarea" name="formtextarea">
+    	<p>이름 : <input type="text" name="name" placeholder="이름을 입력해주세요."></input><p>
+        <p>내용 : <input type="textarea" maxlength="500" style="height:100px;" name="inforText" placeholder="본문을  입력해주세요."></input><p>
+        <p>나이 :
+        		<select name="sex">
+                	<optgroup>
+                    	<option>남자</option>
+                        <option>여자</option>
+                    </optgroup>
+        		</select>
+          <p> 
+          <input type="submit"  onClick="submitClick()" value="보내기"></input>
+    </form>
+    <script>
+    	function submitClick(){
+			alert("메세지를 보냈습니다.")
+			}
+    </script>
+</body>
+</html>
