@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <?php
 $servername = "localhost";
-$username = "wizard99v";
-$password = "hwany1911^^";
-$dbname = "wizard99v";
+$username = "*****";
+$password = "*****";
+$dbname = "*****";
 
 // Create connection
 $conn = mysql_connect($servername, $username, $password, $dbname);
